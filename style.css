@@ -1,0 +1,23 @@
+.cards {
+    max-width: 90%;
+    margin: 0 auto;
+    display: grid;
+  }
+
+  .cards div{
+    width: 100p;
+  }
+
+  input{
+    width: 50%;
+    height: 90%;
+  }
+
+  #new-item-input{
+    width:"100%";
+  }
+  
+  @media (min-width: 200px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+  }
+  
