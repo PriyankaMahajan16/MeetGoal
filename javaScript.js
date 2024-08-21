@@ -24,7 +24,6 @@ itemInput.addEventListener('keypress', function(event) {
         newItem.textContent = newItemValue;
         list.appendChild(newItem);
     
-        itemInput.style.visibility="hidden";
         addButton.classList.remove("collapsed");
         defaultInput.classList.add("show");
     }});
